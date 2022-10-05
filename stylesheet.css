@@ -51,6 +51,7 @@ body{
   margin-bottom:15px;
   font-size: 30px;
   border-bottom: 1px solid silver;
+  color: rgb(61, 60, 60);
 }
 
 h3{
@@ -61,7 +62,7 @@ h3{
 .main-wrapper{
   width: 70%;
   margin:0 auto;
-  height: 1000px;
+  height: 700px;
   padding-top: 50px;
 }
 .fa-youtube{
@@ -90,5 +91,15 @@ h3{
   padding-left:4px;
   margin-right:20px;
 }
+.fa-paperclip{
+  color: #427eff;
+}
+.fa-music{
+  color: #ffb22d;
+}
 
-
+footer{
+  width: 100%;
+  height: 100px;
+  background-image: url(img/square4.png);
+}
