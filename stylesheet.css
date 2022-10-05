@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+@font-face {
+  font-family: "kamikaze_font";
+  src: url(font/karakaze_font/karakaze-R.ttf); format(".svg")
+}
+@font-face {
+  font-family: "cinema";
+  src: url(font/hataretro/hataretro_otameshi.otf);
+}
+@font-face {
+  font-family: 'yurupen';
+  src: url(font/Amari_Font.otf);
+}
+@font-face {
+  font-family: 'yasashisa';
+  src: url(font/Yasashisa/やさしさゴシック手書き.otf);
+}
+@font-face {
+  font-family: 'halvetica';
+  src: url(font/daydream/daydream.ttf);
+}
+i{
+  font-size: 30px;
+  padding-right: 20px;
+  display: block;
+}
+header{
+  background-image: url(img/square3.png);
+  background-position: 30%;
+  height: 200px;
+}
+body{
+  width: 100%;
+}
+.header-title{
+  font-family: 'cinema','yurupen','yasashisa',sans-serif;
+  padding-left:30px;
+  padding-top:30px;
+  font-size: 50px;
+  color: rgb(138, 138, 138);
+}
+.main-sns{
+  font-family: 'cinema','yurupen','yasashisa',sans-serif;
+  margin-bottom:15px;
+  font-size: 30px;
+  border-bottom: 1px solid silver;
+}
+
+h3{
+  font-family: 'cinema','yurupen';
+  font-size:20px;
+  padding-bottom: 20px;
+}
+.main-wrapper{
+  width: 70%;
+  margin:0 auto;
+  height: 1000px;
+  padding-top: 50px;
+}
+.fa-youtube{
+  color: red;
+}
+.fa-square-twitter{
+  color: skyblue;
+}
+.fa-spoon{
+  color: #FF4F02;
+}
+.fa-instagram{
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 7px;/*角丸に*/
+  position: relative;
+  /* display: inline-block; */
+  height: 30px;/*高さ*/
+  width: 30px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 25px;/*文字のサイズ*/
+  line-height: 30px;/*高さと合わせる*/
+  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
+  padding-left:4px;
+  margin-right:20px;
+}
+
+
